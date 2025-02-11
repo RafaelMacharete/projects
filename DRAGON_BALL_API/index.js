@@ -1,7 +1,7 @@
 // https://dragonball-api.com/api/characters
 
 async function fetchData() {
-    let requisition = await fetch('https://dragonball-api.com/api/characters');
+    let requisition = await fetch('https://dragonball-api.com/api/characters?limit=58');
     let json = await requisition.json();
     
     console.log(json.items);

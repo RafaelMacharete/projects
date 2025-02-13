@@ -1,12 +1,11 @@
-h1{
-    color: aqua;
+body{
+    height: 100%;
 }
 
-h2{
+h1{
     color: brown;
 }
 
-.victor{
-    color: red;
-    font-size: 2em;
+h2{
+    color: #008080;
 }
